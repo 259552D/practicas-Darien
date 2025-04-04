@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Ana Laura Betancourt">
+    <style>
+         body
+    {background-color: rgb(205, 155, 90);
+    font-family: sans-serif;
+    }
+.contenedor{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    /*outline: 1px solid blueviolet;*/
+    }
+    .tipo{
+        background-color: rgb(227, 117, 139);
+        height: 25px;
+        color: rgb(175, 29, 181);}
+        .elemento2{
+            width: 50px;
+            height: 50px;
+            background-color: violet;
+            text-align: center;
+            font-size: 40px;
+            outline: 1px solid black;
+        }
+        .fdcolumn{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(18, 97, 194);
+        }
+        .fdcreverse{
+            display:flex ;
+            flex-direction: column-reverse;
+            background-color: chocolate;
+        }
+        .fdrow{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(18, 97, 194);
+        }
+        .fdrowreverse{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: rgb(18, 97, 194);
+        }
+    </style>
+    <title>Flex Direction</title>
+</head>
+<body>
+    <main class="contenedor">
+        <header class="tipo">
+            <h3>Column</h3>
+        </header>
+        <article class="fdcolumn">
+            <div class="elemento2">1</div>
+            <div class="elemento2">2</div>
+            <div class="elemento2">3</div>
+        </article>
+        <section>
+            <header class="tipo">
+                <h3>Column reverse</h3>
+            </header>
+            <article class="fdcreverse">
+                <div class="elemento2">1</div>
+                <div class="elemento2">2</div>
+                <div class="elemento2">3</div>
+            </article>
+        </section>
+        <section>
+            <header class="tipo">
+                <h3>Row</h3>
+            </header>
+            <article class="fdrow">
+                <div class="elemento2">1</div>
+                <div class="elemento2">2</div>
+                <div class="elemento2">3</div>
+            </article>
+        </section>
+        <section>
+            <header class="tipo">
+                <h3>Row Reverse</h3>
+            </header>
+            <article class="fdrowreverse">
+                <div class="elemento2">1</div>
+                <div class="elemento2">2</div>
+                <div class="elemento2">3</div>
+            </article>
+        </section>
+
+    </main>
+    
+</body>
+</html>

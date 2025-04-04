@@ -1,0 +1,12 @@
+/*Documento css*/
+
+body {background-color: #ffcd76;}
+
+h1,h3 {color: #ff0101;
+    font-size: 32px;
+    text-align: center;
+    line-height: 130%;}
+    
+h2,h4 {color: #0000ff;}
+
+h5 {color: blueviolet;}

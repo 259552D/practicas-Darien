@@ -1,0 +1,34 @@
+/*DOCUMENTO*/
+
+*{margin: 0%;}
+
+.cabecera{background-color: #0f25a3;
+          margin-bottom: 26px;}
+
+h1{color: #ffffff;
+   text-align: center;
+   font-family: "Anton", sans-serif;
+   font-size: 100px;}
+
+h2{margin-top: 25px;
+   margin-bottom: 10px;
+   font-size: 30px;
+   text-align: center;}
+
+.contenido img{width: 200px;
+               margin: auto;}
+
+.contenido p{font-size: 20px;
+              margin-bottom: 15px;}
+
+.tabla table{background-color: #7bc4ff;
+               font-size: 25px;
+               margin-bottom: 15px;
+               text-align: left;
+               margin: auto;}
+
+
+.pie{background-color: #091972;
+     color: #ffffff;
+     text-align: center;}
+

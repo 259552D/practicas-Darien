@@ -1,0 +1,35 @@
+/*Documento CSS*/
+
+*{margin: 0;}
+
+/*Encabezados*/
+
+body{font-family: "Playfair Display", serif;}
+
+h1{text-align: center;
+     background-color: chartreuse;
+     color: #000000;
+     font-family: "Playfair Display", serif;
+
+h2{padding: 8px 16px;}
+
+/*LAYOUT*/
+
+.cabecera {background-color: #006400;
+     padding: 16px 0px 16px 0px;}
+
+.listas,.contenido {padding: 24px 16px;
+     width: 70%;
+     margin: 0 px auto;}
+
+.atencion {color: #ff0000;}
+
+.listas ol {border: 2px solid red;}
+
+.contenido p {line-height: 140%;
+             padding: 8px 0px 16px 0px;
+             font-size: 16px;}
+
+.pie span {text-align: center;
+           background-color: #006400;
+           font-size: 16px;}
